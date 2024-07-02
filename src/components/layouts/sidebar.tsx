@@ -14,13 +14,19 @@ const Sidebar: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <nav className="flex-1 p-4">
           <ul>
             <li className="mb-2">
-              <Link href="/" className="text-white">Home</Link>
+              <Link href="/">
+                <a className="text-white">Home</a>
+              </Link>
             </li>
             <li className="mb-2">
-              <Link href="/google-photos" className="text-white">Google Photos</Link>
+              <Link href="/google-photos">
+                <a className="text-white">Google Photos</a>
+              </Link>
             </li>
             <li className="mb-2">
-              <Link href="/results" className="text-white">Detection Results</Link>
+              <Link href="/results">
+                <a className="text-white">Detection Results</a>
+              </Link>
             </li>
           </ul>
         </nav>
