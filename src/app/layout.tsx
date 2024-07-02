@@ -6,7 +6,7 @@ import Sidebar from "@/components/layouts/sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NSFW Content Detector",
+  title: "NSFW Detector",
   description: "Local NSFW Detection in Google Photos",
 };
 
