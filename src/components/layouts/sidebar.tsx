@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Sidebar: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const Sidebar: React.FC<{ children: React.ReactNode }> = function Sidebar({ children }) {
   return (
     <div className="flex">
       <aside className="w-64 h-screen bg-gray-800 text-white flex flex-col">
@@ -36,4 +36,4 @@ const Sidebar: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   );
 };
 
-export default Sidebar;
+export { Sidebar };
